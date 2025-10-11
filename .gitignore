@@ -1,0 +1,12 @@
+# Ignore virtual environment
+.venv/
+_pycache_/
+
+# Python artifacts
+*.pyc
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+Thumbs.db
