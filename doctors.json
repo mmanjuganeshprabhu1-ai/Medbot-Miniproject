@@ -1,1 +1,541 @@
-[{"name": "Dr. Aarav Sharma", "specialty": "General Physician", "rating": 4.8, "slots": ["10:00 AM", "1:00 PM", "3:00 PM", "5:00 PM"]}, {"name": "Dr. Ananya Verma", "specialty": "General Physician", "rating": 4.7, "slots": ["10:30 AM", "1:30 PM", "3:30 PM", "5:30 PM"]}, {"name": "Dr. Rohan Mehta", "specialty": "General Physician", "rating": 4.9, "slots": ["11:00 AM", "2:00 PM", "4:00 PM", "6:00 PM"]}, {"name": "Dr. Ishaan Kapoor", "specialty": "Cardiologist", "rating": 4.9, "slots": ["10:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"]}, {"name": "Dr. Priya Nair", "specialty": "Cardiologist", "rating": 4.8, "slots": ["11:00 AM", "1:00 PM", "4:00 PM", "6:00 PM"]}, {"name": "Dr. Kabir Singh", "specialty": "Cardiologist", "rating": 4.7, "slots": ["10:30 AM", "1:30 PM", "3:30 PM", "5:30 PM"]}, {"name": "Dr. Meera Joshi", "specialty": "Neurologist", "rating": 4.8, "slots": ["11:00 AM", "2:00 PM", "4:00 PM", "6:00 PM"]}, {"name": "Dr. Arjun Reddy", "specialty": "Neurologist", "rating": 4.9, "slots": ["10:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"]}, {"name": "Dr. Nisha Gupta", "specialty": "Neurologist", "rating": 4.7, "slots": ["10:30 AM", "1:30 PM", "3:30 PM", "5:30 PM"]}, {"name": "Dr. Sanjay Rao", "specialty": "Dermatologist", "rating": 4.6, "slots": ["10:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"]}, {"name": "Dr. Kavya Iyer", "specialty": "Dermatologist", "rating": 4.7, "slots": ["10:30 AM", "1:30 PM", "3:30 PM", "5:30 PM"]}, {"name": "Dr. Veer Patel", "specialty": "ENT", "rating": 4.8, "slots": ["11:00 AM", "2:00 PM", "4:00 PM", "6:00 PM"]}, {"name": "Dr. Anika Sharma", "specialty": "ENT", "rating": 4.7, "slots": ["10:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"]}, {"name": "Dr. Raghav Malhotra", "specialty": "ENT", "rating": 4.8, "slots": ["10:30 AM", "1:30 PM", "3:30 PM", "5:30 PM"]}, {"name": "Dr. Tanya Desai", "specialty": "Pediatrician", "rating": 4.9, "slots": ["11:00 AM", "2:00 PM", "4:00 PM", "6:00 PM"]}, {"name": "Dr. Aditya Joshi", "specialty": "Pediatrician", "rating": 4.8, "slots": ["10:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"]}, {"name": "Dr. Ritu Khanna", "specialty": "Orthopedic", "rating": 4.7, "slots": ["10:30 AM", "1:30 PM", "3:30 PM", "5:30 PM"]}, {"name": "Dr. Karan Mehra", "specialty": "Orthopedic", "rating": 4.6, "slots": ["11:00 AM", "2:00 PM", "4:00 PM", "6:00 PM"]}, {"name": "Dr. Simran Bhatia", "specialty": "Orthopedic", "rating": 4.8, "slots": ["10:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"]}, {"name": "Dr. Mohit Arora", "specialty": "Gastroenterologist", "rating": 4.7, "slots": ["10:30 AM", "1:30 PM", "3:30 PM", "5:30 PM"]}, {"name": "Dr. Shreya Nair", "specialty": "Gastroenterologist", "rating": 4.9, "slots": ["11:00 AM", "2:00 PM", "4:00 PM", "6:00 PM"]}, {"name": "Dr. Varun Singh", "specialty": "Gastroenterologist", "rating": 4.8, "slots": ["10:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"]}, {"name": "Dr. Ayesha Khan", "specialty": "Psychiatrist", "rating": 4.9, "slots": ["10:30 AM", "1:30 PM", "3:30 PM", "5:30 PM"]}, {"name": "Dr. Rohit Malhotra", "specialty": "Psychiatrist", "rating": 4.8, "slots": ["11:00 AM", "2:00 PM", "4:00 PM", "6:00 PM"]}, {"name": "Dr. Meenakshi Iyer", "specialty": "Psychiatrist", "rating": 4.7, "slots": ["10:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"]}, {"name": "Dr. Tanvi Sharma", "specialty": "Pulmonologist", "rating": 4.8, "slots": ["10:30 AM", "1:30 PM", "3:30 PM", "5:30 PM"]}, {"name": "Dr. Arnav Reddy", "specialty": "Pulmonologist", "rating": 4.9, "slots": ["11:00 AM", "2:00 PM", "4:00 PM", "6:00 PM"]}, {"name": "Dr. Isha Gupta", "specialty": "Pulmonologist", "rating": 4.7, "slots": ["10:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"]}, {"name": "Dr. Siddharth Jain", "specialty": "Endocrinologist", "rating": 4.8, "slots": ["10:30 AM", "1:30 PM", "3:30 PM", "5:30 PM"]}, {"name": "Dr. Priyanka Rao", "specialty": "Endocrinologist", "rating": 4.7, "slots": ["11:00 AM", "2:00 PM", "4:00 PM", "6:00 PM"]}, {"name": "Dr. Devansh Sharma", "specialty": "Endocrinologist", "rating": 4.9, "slots": ["10:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"]}, {"name": "Dr. Anjali Verma", "specialty": "Nephrologist", "rating": 4.7, "slots": ["10:30 AM", "1:30 PM", "3:30 PM", "5:30 PM"]}, {"name": "Dr. Kunal Mehta", "specialty": "Nephrologist", "rating": 4.8, "slots": ["11:00 AM", "2:00 PM", "4:00 PM", "6:00 PM"]}, {"name": "Dr. Sneha Kapoor", "specialty": "Nephrologist", "rating": 4.9, "slots": ["10:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"]}, {"name": "Dr. Rhea Nair", "specialty": "Ophthalmologist", "rating": 4.8, "slots": ["10:30 AM", "1:30 PM", "3:30 PM", "5:30 PM"]}, {"name": "Dr. Aarush Verma", "specialty": "Ophthalmologist", "rating": 4.7, "slots": ["11:00 AM", "2:00 PM", "4:00 PM", "6:00 PM"]}, {"name": "Dr. Nandini Sharma", "specialty": "Ophthalmologist", "rating": 4.9, "slots": ["10:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"]}, {"name": "Dr. Vivaan Joshi", "specialty": "Rheumatologist", "rating": 4.8, "slots": ["10:30 AM", "1:30 PM", "3:30 PM", "5:30 PM"]}, {"name": "Dr. Ishita Kapoor", "specialty": "Rheumatologist", "rating": 4.7, "slots": ["11:00 AM", "2:00 PM", "4:00 PM", "6:00 PM"]}, {"name": "Dr. Yash Malhotra", "specialty": "Rheumatologist", "rating": 4.9, "slots": ["10:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"]}, {"name": "Dr. Simran Gupta", "specialty": "Oncologist", "rating": 4.8, "slots": ["10:30 AM", "1:30 PM", "3:30 PM", "5:30 PM"]}, {"name": "Dr. Arjun Sharma", "specialty": "Oncologist", "rating": 4.7, "slots": ["11:00 AM", "2:00 PM", "4:00 PM", "6:00 PM"]}, {"name": "Dr. Meera Kapoor", "specialty": "Oncologist", "rating": 4.9, "slots": ["10:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"]}, {"name": "Dr. Aarav Iyer", "specialty": "Allergist", "rating": 4.8, "slots": ["10:30 AM", "1:30 PM", "3:30 PM", "5:30 PM"]}, {"name": "Dr. Tanya Malhotra", "specialty": "Allergist", "rating": 4.7, "slots": ["11:00 AM", "2:00 PM", "4:00 PM", "6:00 PM"]}, {"name": "Dr. Raghav Nair", "specialty": "Allergist", "rating": 4.9, "slots": ["10:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"]}, {"name": "Dr. Priya Mehta", "specialty": "Cardiologist", "rating": 4.9, "slots": ["9:00 AM", "11:00 AM", "2:00 PM", "4:00 PM"]}, {"name": "Dr. Rohit Verma", "specialty": "Cardiologist", "rating": 4.7, "slots": ["10:30 AM", "12:30 PM", "3:30 PM", "5:30 PM"]}, {"name": "Dr. Ananya Singh", "specialty": "Cardiologist", "rating": 4.6, "slots": ["9:30 AM", "1:00 PM", "3:00 PM", "6:00 PM"]}]
+[
+    {
+        "name": "Dr. Aarav Sharma",
+        "specialty": "General Physician",
+        "rating": 4.8,
+        "slots": [
+            "10:00 AM",
+            "1:00 PM",
+            "3:00 PM",
+            "5:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Ananya Verma",
+        "specialty": "General Physician",
+        "rating": 4.7,
+        "slots": [
+            "10:30 AM",
+            "1:30 PM",
+            "3:30 PM",
+            "5:30 PM"
+        ]
+    },
+    {
+        "name": "Dr. Rohan Mehta",
+        "specialty": "General Physician",
+        "rating": 4.9,
+        "slots": [
+            "11:00 AM",
+            "2:00 PM",
+            "4:00 PM",
+            "6:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Ishaan Kapoor",
+        "specialty": "Cardiologist",
+        "rating": 4.9,
+        "slots": [
+            "10:00 AM",
+            "12:00 PM",
+            "3:00 PM",
+            "5:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Priya Nair",
+        "specialty": "Cardiologist",
+        "rating": 4.8,
+        "slots": [
+            "11:00 AM",
+            "1:00 PM",
+            "4:00 PM",
+            "6:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Kabir Singh",
+        "specialty": "Cardiologist",
+        "rating": 4.7,
+        "slots": [
+            "10:30 AM",
+            "1:30 PM",
+            "3:30 PM",
+            "5:30 PM"
+        ]
+    },
+    {
+        "name": "Dr. Meera Joshi",
+        "specialty": "Neurologist",
+        "rating": 4.8,
+        "slots": [
+            "11:00 AM",
+            "2:00 PM",
+            "4:00 PM",
+            "6:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Arjun Reddy",
+        "specialty": "Neurologist",
+        "rating": 4.9,
+        "slots": [
+            "10:00 AM",
+            "12:00 PM",
+            "3:00 PM",
+            "5:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Nisha Gupta",
+        "specialty": "Neurologist",
+        "rating": 4.7,
+        "slots": [
+            "10:30 AM",
+            "1:30 PM",
+            "3:30 PM",
+            "5:30 PM"
+        ]
+    },
+    {
+        "name": "Dr. Sanjay Rao",
+        "specialty": "Dermatologist",
+        "rating": 4.6,
+        "slots": [
+            "10:00 AM",
+            "12:00 PM",
+            "3:00 PM",
+            "5:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Kavya Iyer",
+        "specialty": "Dermatologist",
+        "rating": 4.7,
+        "slots": [
+            "10:30 AM",
+            "1:30 PM",
+            "3:30 PM",
+            "5:30 PM"
+        ]
+    },
+    {
+        "name": "Dr. Veer Patel",
+        "specialty": "ENT",
+        "rating": 4.8,
+        "slots": [
+            "11:00 AM",
+            "2:00 PM",
+            "4:00 PM",
+            "6:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Anika Sharma",
+        "specialty": "ENT",
+        "rating": 4.7,
+        "slots": [
+            "10:00 AM",
+            "12:00 PM",
+            "3:00 PM",
+            "5:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Raghav Malhotra",
+        "specialty": "ENT",
+        "rating": 4.8,
+        "slots": [
+            "10:30 AM",
+            "1:30 PM",
+            "3:30 PM",
+            "5:30 PM"
+        ]
+    },
+    {
+        "name": "Dr. Tanya Desai",
+        "specialty": "Pediatrician",
+        "rating": 4.9,
+        "slots": [
+            "11:00 AM",
+            "2:00 PM",
+            "4:00 PM",
+            "6:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Aditya Joshi",
+        "specialty": "Pediatrician",
+        "rating": 4.8,
+        "slots": [
+            "10:00 AM",
+            "12:00 PM",
+            "3:00 PM",
+            "5:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Ritu Khanna",
+        "specialty": "Orthopedic",
+        "rating": 4.7,
+        "slots": [
+            "10:30 AM",
+            "1:30 PM",
+            "3:30 PM",
+            "5:30 PM"
+        ]
+    },
+    {
+        "name": "Dr. Karan Mehra",
+        "specialty": "Orthopedic",
+        "rating": 4.6,
+        "slots": [
+            "11:00 AM",
+            "2:00 PM",
+            "4:00 PM",
+            "6:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Simran Bhatia",
+        "specialty": "Orthopedic",
+        "rating": 4.8,
+        "slots": [
+            "10:00 AM",
+            "12:00 PM",
+            "3:00 PM",
+            "5:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Mohit Arora",
+        "specialty": "Gastroenterologist",
+        "rating": 4.7,
+        "slots": [
+            "10:30 AM",
+            "1:30 PM",
+            "3:30 PM",
+            "5:30 PM"
+        ]
+    },
+    {
+        "name": "Dr. Shreya Nair",
+        "specialty": "Gastroenterologist",
+        "rating": 4.9,
+        "slots": [
+            "11:00 AM",
+            "2:00 PM",
+            "4:00 PM",
+            "6:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Varun Singh",
+        "specialty": "Gastroenterologist",
+        "rating": 4.8,
+        "slots": [
+            "10:00 AM",
+            "12:00 PM",
+            "3:00 PM",
+            "5:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Ayesha Khan",
+        "specialty": "Psychiatrist",
+        "rating": 4.9,
+        "slots": [
+            "10:30 AM",
+            "1:30 PM",
+            "3:30 PM",
+            "5:30 PM"
+        ]
+    },
+    {
+        "name": "Dr. Rohit Malhotra",
+        "specialty": "Psychiatrist",
+        "rating": 4.8,
+        "slots": [
+            "11:00 AM",
+            "2:00 PM",
+            "4:00 PM",
+            "6:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Meenakshi Iyer",
+        "specialty": "Psychiatrist",
+        "rating": 4.7,
+        "slots": [
+            "10:00 AM",
+            "12:00 PM",
+            "3:00 PM",
+            "5:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Tanvi Sharma",
+        "specialty": "Pulmonologist",
+        "rating": 4.8,
+        "slots": [
+            "10:30 AM",
+            "1:30 PM",
+            "3:30 PM",
+            "5:30 PM"
+        ]
+    },
+    {
+        "name": "Dr. Arnav Reddy",
+        "specialty": "Pulmonologist",
+        "rating": 4.9,
+        "slots": [
+            "11:00 AM",
+            "2:00 PM",
+            "4:00 PM",
+            "6:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Isha Gupta",
+        "specialty": "Pulmonologist",
+        "rating": 4.7,
+        "slots": [
+            "10:00 AM",
+            "12:00 PM",
+            "3:00 PM",
+            "5:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Siddharth Jain",
+        "specialty": "Endocrinologist",
+        "rating": 4.8,
+        "slots": [
+            "10:30 AM",
+            "1:30 PM",
+            "3:30 PM",
+            "5:30 PM"
+        ]
+    },
+    {
+        "name": "Dr. Priyanka Rao",
+        "specialty": "Endocrinologist",
+        "rating": 4.7,
+        "slots": [
+            "11:00 AM",
+            "2:00 PM",
+            "4:00 PM",
+            "6:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Devansh Sharma",
+        "specialty": "Endocrinologist",
+        "rating": 4.9,
+        "slots": [
+            "10:00 AM",
+            "12:00 PM",
+            "3:00 PM",
+            "5:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Anjali Verma",
+        "specialty": "Nephrologist",
+        "rating": 4.7,
+        "slots": [
+            "10:30 AM",
+            "1:30 PM",
+            "3:30 PM",
+            "5:30 PM"
+        ]
+    },
+    {
+        "name": "Dr. Kunal Mehta",
+        "specialty": "Nephrologist",
+        "rating": 4.8,
+        "slots": [
+            "11:00 AM",
+            "2:00 PM",
+            "4:00 PM",
+            "6:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Sneha Kapoor",
+        "specialty": "Nephrologist",
+        "rating": 4.9,
+        "slots": [
+            "10:00 AM",
+            "12:00 PM",
+            "3:00 PM",
+            "5:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Rhea Nair",
+        "specialty": "Ophthalmologist",
+        "rating": 4.8,
+        "slots": [
+            "10:30 AM",
+            "1:30 PM",
+            "3:30 PM",
+            "5:30 PM"
+        ]
+    },
+    {
+        "name": "Dr. Aarush Verma",
+        "specialty": "Ophthalmologist",
+        "rating": 4.7,
+        "slots": [
+            "11:00 AM",
+            "2:00 PM",
+            "4:00 PM",
+            "6:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Nandini Sharma",
+        "specialty": "Ophthalmologist",
+        "rating": 4.9,
+        "slots": [
+            "10:00 AM",
+            "12:00 PM",
+            "3:00 PM",
+            "5:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Vivaan Joshi",
+        "specialty": "Rheumatologist",
+        "rating": 4.8,
+        "slots": [
+            "10:30 AM",
+            "1:30 PM",
+            "3:30 PM",
+            "5:30 PM"
+        ]
+    },
+    {
+        "name": "Dr. Ishita Kapoor",
+        "specialty": "Rheumatologist",
+        "rating": 4.7,
+        "slots": [
+            "11:00 AM",
+            "2:00 PM",
+            "4:00 PM",
+            "6:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Yash Malhotra",
+        "specialty": "Rheumatologist",
+        "rating": 4.9,
+        "slots": [
+            "10:00 AM",
+            "12:00 PM",
+            "3:00 PM",
+            "5:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Simran Gupta",
+        "specialty": "Oncologist",
+        "rating": 4.8,
+        "slots": [
+            "10:30 AM",
+            "1:30 PM",
+            "3:30 PM",
+            "5:30 PM"
+        ]
+    },
+    {
+        "name": "Dr. Arjun Sharma",
+        "specialty": "Oncologist",
+        "rating": 4.7,
+        "slots": [
+            "11:00 AM",
+            "2:00 PM",
+            "4:00 PM",
+            "6:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Meera Kapoor",
+        "specialty": "Oncologist",
+        "rating": 4.9,
+        "slots": [
+            "10:00 AM",
+            "12:00 PM",
+            "3:00 PM",
+            "5:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Aarav Iyer",
+        "specialty": "Allergist",
+        "rating": 4.8,
+        "slots": [
+            "10:30 AM",
+            "1:30 PM",
+            "3:30 PM",
+            "5:30 PM"
+        ]
+    },
+    {
+        "name": "Dr. Tanya Malhotra",
+        "specialty": "Allergist",
+        "rating": 4.7,
+        "slots": [
+            "11:00 AM",
+            "2:00 PM",
+            "4:00 PM",
+            "6:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Raghav Nair",
+        "specialty": "Allergist",
+        "rating": 4.9,
+        "slots": [
+            "10:00 AM",
+            "12:00 PM",
+            "3:00 PM",
+            "5:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Priya Mehta",
+        "specialty": "Cardiologist",
+        "rating": 4.9,
+        "slots": [
+            "9:00 AM",
+            "11:00 AM",
+            "2:00 PM",
+            "4:00 PM"
+        ]
+    },
+    {
+        "name": "Dr. Rohit Verma",
+        "specialty": "Cardiologist",
+        "rating": 4.7,
+        "slots": [
+            "10:30 AM",
+            "12:30 PM",
+            "3:30 PM",
+            "5:30 PM"
+        ]
+    },
+    {
+        "name": "Dr. Ananya Singh",
+        "specialty": "Cardiologist",
+        "rating": 4.6,
+        "slots": [
+            "9:30 AM",
+            "1:00 PM",
+            "3:00 PM",
+            "6:00 PM"
+        ]
+    }
+]

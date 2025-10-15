@@ -1,1 +1,1045 @@
-{"intents": [{"tag": "fever", "patterns": ["fever", "I have fever", "Feeling fever"], "responses": ["Do you have cough?", "Is your temperature above 101\u00b0F?", "How long have you had the fever?"]}, {"tag": "cough", "patterns": ["cough", "I have cough", "Feeling cough"], "responses": ["Is it dry or wet?", "Do you have mucus?", "How long have you been coughing?"]}, {"tag": "cold", "patterns": ["cold", "I have cold", "Feeling cold"], "responses": ["Do you have runny nose?", "Do you have sneezing?", "Is it seasonal?"]}, {"tag": "headache", "patterns": ["headache", "I have headache", "Feeling headache"], "responses": ["Is it migraine-like?", "Do you feel nausea with headache?", "How severe is it on a scale of 1-10?"]}, {"tag": "back pain", "patterns": ["back pain", "I have back pain", "Feeling back pain"], "responses": ["Is the pain lower or upper back?", "Does it worsen with movement?", "How long have you had the pain?"]}, {"tag": "stomach pain", "patterns": ["stomach pain", "I have stomach pain", "Feeling stomach pain"], "responses": ["Is it upper or lower abdomen?", "Do you have nausea?", "Have you eaten anything unusual?"]}, {"tag": "nausea", "patterns": ["nausea", "I have nausea", "Feeling nausea"], "responses": ["Do you feel vomiting?", "Do you have stomach pain?", "How long have you felt nauseous?"]}, {"tag": "vomiting", "patterns": ["vomiting", "I have vomiting", "Feeling vomiting"], "responses": ["How many times did you vomit?", "Do you have stomach pain?", "Any blood in vomit?"]}, {"tag": "dizziness", "patterns": ["dizziness", "I have dizziness", "Feeling dizziness"], "responses": ["Do you feel lightheaded?", "Do you have nausea?", "Does it happen when standing?"]}, {"tag": "fatigue", "patterns": ["fatigue", "I have fatigue", "Feeling fatigue"], "responses": ["Is it sudden or gradual?", "Do you sleep well?", "Any weight change?"]}, {"tag": "chest pain", "patterns": ["chest pain", "I have chest pain", "Feeling chest pain"], "responses": ["Is it sharp or dull?", "Does it radiate?", "Do you feel shortness of breath?"]}, {"tag": "shortness of breath", "patterns": ["shortness of breath", "I have shortness of breath", "Feeling shortness of breath"], "responses": ["Is it during activity?", "Do you have chest pain?", "Do you have cough?"]}, {"tag": "allergy", "patterns": ["allergy", "I have allergy", "Feeling allergy"], "responses": ["What symptoms do you have?", "Do you know the trigger?", "Is it seasonal?"]}, {"tag": "sore throat", "patterns": ["sore throat", "I have sore throat", "Feeling sore throat"], "responses": ["Do you have fever?", "Is it painful to swallow?", "Do you have cough?"]}, {"tag": "diarrhea", "patterns": ["diarrhea", "I have diarrhea", "Feeling diarrhea"], "responses": ["How many times per day?", "Do you have blood in stool?", "Any stomach cramps?"]}, {"tag": "constipation", "patterns": ["constipation", "I have constipation", "Feeling constipation"], "responses": ["How many days without stool?", "Is it painful?", "Any diet change?"]}, {"tag": "joint pain", "patterns": ["joint pain", "I have joint pain", "Feeling joint pain"], "responses": ["Which joints?", "Is it swollen?", "Any injury recently?"]}, {"tag": "muscle pain", "patterns": ["muscle pain", "I have muscle pain", "Feeling muscle pain"], "responses": ["Where is the pain?", "Is it due to exercise?", "How severe is it?"]}, {"tag": "rash", "patterns": ["rash", "I have rash", "Feeling rash"], "responses": ["Where is the rash?", "Is it itchy?", "Any medication recently?"]}, {"tag": "insomnia", "patterns": ["insomnia", "I have insomnia", "Feeling insomnia"], "responses": ["Difficulty falling asleep or staying asleep?", "Any stress?", "Any medication?"]}, {"tag": "anxiety", "patterns": ["anxiety", "I have anxiety", "Feeling anxiety"], "responses": ["Do you have panic attacks?", "Do you sleep well?", "Any triggers?"]}, {"tag": "depression", "patterns": ["depression", "I have depression", "Feeling depression"], "responses": ["Do you feel sad frequently?", "Do you have loss of interest?", "Any suicidal thoughts?"]}, {"tag": "weight loss", "patterns": ["weight loss", "I have weight loss", "Feeling weight loss"], "responses": ["Is it intentional?", "Any appetite loss?", "Any other symptoms?"]}, {"tag": "weight gain", "patterns": ["weight gain", "I have weight gain", "Feeling weight gain"], "responses": ["Any change in diet?", "Do you have swelling?", "Any fatigue?"]}, {"tag": "blurred vision", "patterns": ["blurred vision", "I have blurred vision", "Feeling blurred vision"], "responses": ["Both eyes or one eye?", "Do you have headache?", "Sudden or gradual?"]}, {"tag": "ear pain", "patterns": ["ear pain", "I have ear pain", "Feeling ear pain"], "responses": ["Is there discharge?", "Do you have hearing loss?", "Any fever?"]}, {"tag": "eye pain", "patterns": ["eye pain", "I have eye pain", "Feeling eye pain"], "responses": ["Is it red or itchy?", "Do you have blurred vision?", "Any discharge?"]}, {"tag": "urination problem", "patterns": ["urination problem", "I have urination problem", "Feeling urination problem"], "responses": ["Painful or frequent?", "Any blood in urine?", "Any fever?"]}, {"tag": "hair fall", "patterns": ["hair fall", "I have hair fall", "Feeling hair fall"], "responses": ["Is it sudden?", "Any scalp issues?", "Any medications?"]}, {"tag": "memory loss", "patterns": ["memory loss", "I have memory loss", "Feeling memory loss"], "responses": ["Recent or long-term?", "Any confusion?", "Any head injury?"]}, {"tag": "heartburn", "patterns": ["heartburn", "I have heartburn", "Feeling heartburn"], "responses": ["Is it after meals?", "Do you have nausea?", "Any medications?"]}, {"tag": "gas problem", "patterns": ["gas problem", "I have gas problem", "Feeling gas problem"], "responses": ["Do you have bloating?", "Any stomach pain?", "Any diet changes?"]}, {"tag": "cold hands", "patterns": ["cold hands", "I have cold hands", "Feeling cold hands"], "responses": ["Do you have numbness?", "Any pain?", "Any swelling?"]}, {"tag": "cold feet", "patterns": ["cold feet", "I have cold feet", "Feeling cold feet"], "responses": ["Any numbness?", "Any swelling?", "Do you have diabetes?"]}, {"tag": "sweating", "patterns": ["sweating", "I have sweating", "Feeling sweating"], "responses": ["Excessive during day or night?", "Any fever?", "Any medications?"]}, {"tag": "thirst", "patterns": ["thirst", "I have thirst", "Feeling thirst"], "responses": ["Do you drink enough water?", "Any urination issues?", "Any diabetes?"]}, {"tag": "frequent urination", "patterns": ["frequent urination", "I have frequent urination", "Feeling frequent urination"], "responses": ["Any pain?", "Any thirst?", "Any fever?"]}, {"tag": "coughing blood", "patterns": ["coughing blood", "I have coughing blood", "Feeling coughing blood"], "responses": ["How often?", "Any chest pain?", "Any fever?"]}, {"tag": "nose bleeding", "patterns": ["nose bleeding", "I have nose bleeding", "Feeling nose bleeding"], "responses": ["How often?", "Any injury?", "Any medications?"]}, {"tag": "swelling", "patterns": ["swelling", "I have swelling", "Feeling swelling"], "responses": ["Where is the swelling?", "Any pain?", "Any fever?"]}, {"tag": "lump", "patterns": ["lump", "I have lump", "Feeling lump"], "responses": ["Where is the lump?", "Hard or soft?", "Any pain?"]}, {"tag": "chest tightness", "patterns": ["chest tightness", "I have chest tightness", "Feeling chest tightness"], "responses": ["When does it occur?", "Any shortness of breath?", "Any exercise?"]}, {"tag": "palpitations", "patterns": ["palpitations", "I have palpitations", "Feeling palpitations"], "responses": ["Do you feel irregular heartbeat?", "Any chest pain?", "Any dizziness?"]}, {"tag": "loss of appetite", "patterns": ["loss of appetite", "I have loss of appetite", "Feeling loss of appetite"], "responses": ["Any nausea?", "Any weight loss?", "Any fever?"]}, {"tag": "vomiting blood", "patterns": ["vomiting blood", "I have vomiting blood", "Feeling vomiting blood"], "responses": ["How often?", "Any stomach pain?", "Any dizziness?"]}, {"tag": "confusion", "patterns": ["confusion", "I have confusion", "Feeling confusion"], "responses": ["Sudden or gradual?", "Any fever?", "Any head injury?"]}, {"tag": "feeling cold", "patterns": ["feeling cold", "I have feeling cold", "Feeling feeling cold"], "responses": ["Any fever?", "Any fatigue?", "Any other symptoms?"]}, {"tag": "feeling hot", "patterns": ["feeling hot", "I have feeling hot", "Feeling feeling hot"], "responses": ["Any fever?", "Any sweating?", "Any other symptoms?"]}, {"tag": "difficulty swallowing", "patterns": ["difficulty swallowing", "I have difficulty swallowing", "Feeling difficulty swallowing"], "responses": ["Painful or hard to swallow?", "Any throat pain?", "Any swelling?"]}, {"tag": "snoring", "patterns": ["snoring", "I have snoring", "Feeling snoring"], "responses": ["Only at night?", "Any daytime sleepiness?", "Any apnea noticed?"]}, {"tag": "heart pain", "patterns": ["heart pain", "I have heart pain", "Feeling heart pain"], "responses": ["Tell me more about your symptom."]}]}
+{
+    "intents": [
+        {
+            "tag": "fever",
+            "patterns": [
+                "fever",
+                "I have fever",
+                "Feeling fever"
+            ],
+            "responses": [
+                "Do you have cough?",
+                "Is your temperature above 101\u00b0F?",
+                "Do you have chills or sweating?",
+                "How long have you had the fever?"
+            ]
+        },
+        {
+            "tag": "cough",
+            "patterns": [
+                "cough",
+                "I have cough",
+                "Feeling cough"
+            ],
+            "responses": [
+                "Is it dry or wet?",
+                "Do you have mucus?",
+                "Any blood in the mucus?",
+                "How long have you been coughing?"
+            ]
+        },
+        {
+            "tag": "cold",
+            "patterns": [
+                "cold",
+                "I have cold",
+                "Feeling cold"
+            ],
+            "responses": [
+                "Do you have runny nose?",
+                "Do you have sneezing?",
+                "Is it seasonal?",
+                "Any sore throat or fever?"
+            ]
+        },
+        {
+            "tag": "headache",
+            "patterns": [
+                "headache",
+                "I have headache",
+                "Feeling headache"
+            ],
+            "responses": [
+                "Is it migraine-like?",
+                "Do you feel nausea with headache?",
+                "How severe is it on a scale of 1-10?",
+                "Is it one-sided or all over?"
+            ]
+        },
+        {
+            "tag": "back pain",
+            "patterns": [
+                "back pain",
+                "I have back pain",
+                "Feeling back pain"
+            ],
+            "responses": [
+                "Is the pain lower or upper back?",
+                "Does it worsen with movement?",
+                "Any numbness or tingling?",
+                "How long have you had the pain?"
+            ]
+        },
+        {
+            "tag": "stomach pain",
+            "patterns": [
+                "stomach pain",
+                "I have stomach pain",
+                "Feeling stomach pain"
+            ],
+            "responses": [
+                "Is it upper or lower abdomen?",
+                "Do you have nausea or vomiting?",
+                "Any bloating or gas?",
+                "Have you eaten anything unusual?"
+            ]
+        },
+        {
+            "tag": "nausea",
+            "patterns": [
+                "nausea",
+                "I have nausea",
+                "Feeling nausea"
+            ],
+            "responses": [
+                "Do you feel like vomiting?",
+                "Do you have stomach pain?",
+                "Any dizziness or headache?",
+                "How long have you felt nauseous?"
+            ]
+        },
+        {
+            "tag": "vomiting",
+            "patterns": [
+                "vomiting",
+                "I have vomiting",
+                "Feeling vomiting"
+            ],
+            "responses": [
+                "How many times did you vomit?",
+                "Do you have stomach pain?",
+                "Any blood in vomit?",
+                "Any recent food intake or medication?"
+            ]
+        },
+        {
+            "tag": "dizziness",
+            "patterns": [
+                "dizziness",
+                "I have dizziness",
+                "Feeling dizziness"
+            ],
+            "responses": [
+                "Do you feel lightheaded or spinning?",
+                "Do you have nausea?",
+                "Does it happen when standing?",
+                "Any recent illness or dehydration?"
+            ]
+        },
+        {
+            "tag": "fatigue",
+            "patterns": [
+                "fatigue",
+                "I have fatigue",
+                "Feeling fatigue"
+            ],
+            "responses": [
+                "Is it sudden or gradual?",
+                "Do you sleep well?",
+                "Any weight change?",
+                "Do you feel weak or tired all day?"
+            ]
+        },
+        {
+            "tag": "chest pain",
+            "patterns": [
+                "chest pain",
+                "I have chest pain",
+                "Feeling chest pain"
+            ],
+            "responses": [
+                "Is it sharp, dull, or pressure-like?",
+                "Does it radiate to arm, neck, or jaw?",
+                "Do you feel shortness of breath?",
+                "Does it worsen with activity or breathing?"
+            ]
+        },
+        {
+            "tag": "shortness of breath",
+            "patterns": [
+                "shortness of breath",
+                "I have shortness of breath",
+                "Feeling shortness of breath"
+            ],
+            "responses": [
+                "Is it during rest or activity?",
+                "Do you have chest pain?",
+                "Do you have wheezing or cough?",
+                "Do you feel dizzy or faint?"
+            ]
+        },
+        {
+            "tag": "allergy",
+            "patterns": [
+                "allergy",
+                "I have allergy",
+                "Feeling allergy"
+            ],
+            "responses": [
+                "What symptoms do you have?",
+                "Do you know the trigger?",
+                "Is it seasonal?",
+                "Any skin rash or breathing issues?"
+            ]
+        },
+        {
+            "tag": "sore throat",
+            "patterns": [
+                "sore throat",
+                "I have sore throat",
+                "Feeling sore throat"
+            ],
+            "responses": [
+                "Do you have fever?",
+                "Is it painful to swallow?",
+                "Do you have cough or runny nose?",
+                "Any swollen glands?"
+            ]
+        },
+        {
+            "tag": "diarrhea",
+            "patterns": [
+                "diarrhea",
+                "I have diarrhea",
+                "Feeling diarrhea"
+            ],
+            "responses": [
+                "How many times per day?",
+                "Do you have blood in stool?",
+                "Any stomach cramps?",
+                "Any recent food intake or travel?"
+            ]
+        },
+        {
+            "tag": "constipation",
+            "patterns": [
+                "constipation",
+                "I have constipation",
+                "Feeling constipation"
+            ],
+            "responses": [
+                "How many days without stool?",
+                "Is it painful?",
+                "Any bloating or gas?",
+                "Any diet or fluid changes?"
+            ]
+        },
+        {
+            "tag": "joint pain",
+            "patterns": [
+                "joint pain",
+                "I have joint pain",
+                "Feeling joint pain"
+            ],
+            "responses": [
+                "Which joints are affected?",
+                "Is it swollen or red?",
+                "Any stiffness in the morning?",
+                "Any injury recently?"
+            ]
+        },
+        {
+            "tag": "muscle pain",
+            "patterns": [
+                "muscle pain",
+                "I have muscle pain",
+                "Feeling muscle pain"
+            ],
+            "responses": [
+                "Where is the pain?",
+                "Is it due to exercise or strain?",
+                "How severe is it?",
+                "Any weakness or swelling?"
+            ]
+        },
+        {
+            "tag": "rash",
+            "patterns": [
+                "rash",
+                "I have rash",
+                "Feeling rash"
+            ],
+            "responses": [
+                "Where is the rash?",
+                "Is it itchy or painful?",
+                "Any recent medication or allergy?",
+                "Is it spreading or changing?"
+            ]
+        },
+        {
+            "tag": "insomnia",
+            "patterns": [
+                "insomnia",
+                "I have insomnia",
+                "Feeling insomnia"
+            ],
+            "responses": [
+                "Difficulty falling asleep or staying asleep?",
+                "Any stress or anxiety?",
+                "Any caffeine or screen use before bed?",
+                "Any medications or health issues?"
+            ]
+        },
+        {
+            "tag": "anxiety",
+            "patterns": [
+                "anxiety",
+                "I have anxiety",
+                "Feeling anxiety"
+            ],
+            "responses": [
+                "Do you have panic attacks?",
+                "Do you sleep well?",
+                "Any triggers or stressors?",
+                "Do you feel restless or tense?"
+            ]
+        },
+        {
+            "tag": "depression",
+            "patterns": [
+                "depression",
+                "I have depression",
+                "Feeling depression"
+            ],
+            "responses": [
+                "Do you feel sad frequently?",
+                "Do you have loss of interest?",
+                "Any changes in sleep or appetite?",
+                "Any suicidal thoughts?"
+            ]
+        },
+        {
+            "tag": "weight loss",
+            "patterns": [
+                "weight loss",
+                "I have weight loss",
+                "Feeling weight loss"
+            ],
+            "responses": [
+                "Is it intentional?",
+                "Any appetite loss?",
+                "Any fatigue or illness?",
+                "Any recent lifestyle changes?"
+            ]
+        },
+        {
+            "tag": "weight gain",
+            "patterns": [
+                "weight gain",
+                "I have weight gain",
+                "Feeling weight gain"
+            ],
+            "responses": [
+                "Any change in diet?",
+                "Do you have swelling?",
+                "Any fatigue or hormonal issues?",
+                "Any medication use?"
+            ]
+        },
+        {
+            "tag": "blurred vision",
+            "patterns": [
+                "blurred vision",
+                "I have blurred vision",
+                "Feeling blurred vision"
+            ],
+            "responses": [
+                "Both eyes or one eye?",
+                "Do you have headache?",
+                "Sudden or gradual?",
+                "Any eye pain or redness?"
+            ]
+        },
+        {
+            "tag": "ear pain",
+            "patterns": [
+                "ear pain",
+                "I have ear pain",
+                "Feeling ear pain"
+            ],
+            "responses": [
+                "Is there discharge?",
+                "Do you have hearing loss?",
+                "Any fever?",
+                "Any recent cold or sinus issues?"
+            ]
+        },
+        {
+            "tag": "eye pain",
+            "patterns": [
+                "eye pain",
+                "I have eye pain",
+                "Feeling eye pain"
+            ],
+            "responses": [
+                "Is it red or itchy?",
+                "Do you have blurred vision?",
+                "Any discharge or swelling?",
+                "Any sensitivity to light?"
+            ]
+        },
+        {
+            "tag": "urination problem",
+            "patterns": [
+                "urination problem",
+                "I have urination problem",
+                "Feeling urination problem"
+            ],
+            "responses": [
+                "Painful or frequent?",
+                "Any blood in urine?",
+                "Any fever?",
+                "Any urgency or leakage?"
+            ]
+        },
+        {
+            "tag": "hair fall",
+            "patterns": [
+                "hair fall",
+                "I have hair fall",
+                "Feeling hair fall"
+            ],
+            "responses": [
+                "Is it sudden or gradual?",
+                "Any scalp issues?",
+                "Any medications or stress?",
+                "Any family history?"
+            ]
+        },
+        {
+            "tag": "memory loss",
+            "patterns": [
+                "memory loss",
+                "I have memory loss",
+                "Feeling memory loss"
+            ],
+            "responses": [
+                "Recent or long-term?",
+                "Any confusion?",
+                "Any head injury?",
+                "Any difficulty with daily tasks?"
+            ]
+        },
+        {
+            "tag": "heartburn",
+            "patterns": [
+                "heartburn",
+                "I have heartburn",
+                "Feeling heartburn"
+            ],
+            "responses": [
+                "Is it after meals?",
+                "Do you have nausea?",
+                "Any sour taste or burping?",
+                "Any medications or spicy food?"
+            ]
+        },
+        {
+            "tag": "gas problem",
+            "patterns": [
+                "gas problem",
+                "I have gas problem",
+                "Feeling gas problem"
+            ],
+            "responses": [
+                "Do you have bloating?",
+                "Any stomach pain?",
+                "Any diet changes?",
+                "Any constipation or diarrhea?"
+            ]
+        },
+        {
+            "tag": "cold hands",
+            "patterns": [
+                "cold hands",
+                "I have cold hands",
+                "Feeling cold hands"
+            ],
+            "responses": [
+                "Do you have numbness?",
+                "Any pain or color change?",
+                "Any swelling?",
+                "Do you feel cold generally?"
+            ]
+        },
+        {
+            "tag": "cold feet",
+            "patterns": [
+                "cold feet",
+                "I have cold feet",
+                "Feeling cold feet"
+            ],
+            "responses": [
+                "Any numbness?",
+                "Any swelling?",
+                "Do you have diabetes?",
+                "Any skin color changes?"
+            ]
+        },
+        {
+            "tag": "sweating",
+            "patterns": [
+                "sweating",
+                "I have sweating",
+                "Feeling sweating"
+            ],
+            "responses": [
+                "Excessive during day or night?",
+                "Any fever?",
+                "Any medications?",
+                "Any anxiety or palpitations?"
+            ]
+        },
+        {
+            "tag": "thirst",
+            "patterns": [
+                "thirst",
+                "I have thirst",
+                "Feeling thirst"
+            ],
+            "responses": [
+                "Do you drink enough water?",
+                "Any urination issues?",
+                "Any diabetes?",
+                "Any dry mouth or fatigue?"
+            ]
+        },
+        {
+            "tag": "frequent urination",
+            "patterns": [
+                "frequent urination",
+                "I have frequent urination",
+                "Feeling frequent urination"
+            ],
+            "responses": [
+                "Any pain?",
+                "Any thirst?",
+                "Any fever?",
+                "Any urgency or leakage?"
+            ]
+        },
+        {
+            "tag": "coughing blood",
+            "patterns": [
+                "coughing blood",
+                "I have coughing blood",
+                "Feeling coughing blood"
+            ],
+            "responses": [
+                "How often?",
+                "Any chest pain?",
+                "Any fever?",
+                "Any history of TB or smoking?"
+            ]
+        },
+        {
+            "tag": "nose bleeding",
+            "patterns": [
+                "nose bleeding",
+                "I have nose bleeding",
+                "Feeling nose bleeding"
+            ],
+            "responses": [
+                "How often?",
+                "Any injury?",
+                "Any medications?",
+                "Any dryness or sneezing?"
+            ]
+        },
+        {
+            "tag": "swelling",
+            "patterns": [
+                "swelling",
+                "I have swelling",
+                "Feeling swelling"
+            ],
+            "responses": [
+                "Where is the swelling?",
+                "Any pain?",
+                "Any fever?",
+                "Is it sudden or gradual?"
+            ]
+        },
+        {
+            "tag": "lump",
+            "patterns": [
+                "lump",
+                "I have lump",
+                "Feeling lump"
+            ],
+            "responses": [
+                "Where is the lump?",
+                "Hard or soft?",
+                "Fixed or movable?",
+                "Any pain or recent growth?"
+            ]
+        },
+        {
+            "tag": "chest tightness",
+            "patterns": [
+                "chest tightness",
+                "I have chest tightness",
+                "Feeling chest tightness"
+            ],
+            "responses": [
+                "When does it occur?",
+                "Any shortness of breath?",
+                "Any exercise or stress?",
+                "Any wheezing or cough?"
+            ]
+        },
+        {
+            "tag": "palpitations",
+            "patterns": [
+                "palpitations",
+                "I have palpitations",
+                "Feeling palpitations"
+            ],
+            "responses": [
+                "Do you feel irregular heartbeat?",
+                "Any chest pain?",
+                "Any dizziness or fainting?",
+                "Does it happen during rest or exertion?"
+            ]
+        },
+        {
+            "tag": "loss of appetite",
+            "patterns": [
+                "loss of appetite",
+                "I have loss of appetite",
+                "Feeling loss of appetite"
+            ],
+            "responses": [
+                "Any nausea?",
+                "Any weight loss?",
+                "Any fever?",
+                "Any recent stress or illness?"
+            ]
+        },
+        {
+            "tag": "vomiting blood",
+            "patterns": [
+                "vomiting blood",
+                "I have vomiting blood",
+                "Feeling vomiting blood"
+            ],
+            "responses": [
+                "How often?",
+                "Is the blood bright red or dark?",
+                "Any stomach pain?",
+                "Any dizziness or fainting?"
+            ]
+        },
+        {
+            "tag": "confusion",
+            "patterns": [
+                "confusion",
+                "I have confusion",
+                "Feeling confusion"
+            ],
+            "responses": [
+                "Sudden or gradual?",
+                "Any fever?",
+                "Any head injury?",
+                "Do they recognize people and surroundings?"
+            ]
+        },
+        {
+            "tag": "feeling cold",
+            "patterns": [
+                "feeling cold",
+                "I have feeling cold",
+                "Feeling feeling cold"
+            ],
+            "responses": [
+                "Any fever?",
+                "Any fatigue?",
+                "Any other symptoms?",
+                "Do you feel cold even in warm weather?"
+            ]
+        },
+        {
+            "tag": "feeling hot",
+            "patterns": [
+                "feeling hot",
+                "I have feeling hot",
+                "Feeling feeling hot"
+            ],
+            "responses": [
+                "Any fever?",
+                "Any sweating?",
+                "Any other symptoms?",
+                "Do you feel flushed or restless?"
+            ]
+        },
+        {
+            "tag": "difficulty swallowing",
+            "patterns": [
+                "difficulty swallowing",
+                "I have difficulty swallowing",
+                "Feeling difficulty swallowing"
+            ],
+            "responses": [
+                "Painful or hard to swallow?",
+                "Any throat pain?",
+                "Any swelling or lump?",
+                "Any weight loss or choking?"
+            ]
+        },
+        {
+            "tag": "snoring",
+            "patterns": [
+                "snoring",
+                "I have snoring",
+                "Feeling snoring"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "heart pain",
+            "patterns": [
+                "heart pain",
+                "I have heart pain",
+                "Feeling heart pain"
+            ],
+            "responses": [
+                "Do you experience chest tightness or pressure?",
+                "Does the pain radiate to your arm, neck, or jaw?",
+                "How long does each episode last?",
+                "Do you have shortness of breath, sweating, or nausea?"
+            ]
+        },
+        {
+            "tag": "skin discoloration",
+            "patterns": [
+                "skin discoloration",
+                "I have skin discoloration",
+                "Feeling skin discoloration"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "itching",
+            "patterns": [
+                "itching",
+                "I have itching",
+                "Feeling itching"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "acne",
+            "patterns": [
+                "acne",
+                "I have acne",
+                "Feeling acne"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "hearing loss",
+            "patterns": [
+                "hearing loss",
+                "I have hearing loss",
+                "Feeling hearing loss"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "ringing in ears",
+            "patterns": [
+                "ringing in ears",
+                "I have ringing in ears",
+                "Feeling ringing in ears"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "tonsil pain",
+            "patterns": [
+                "tonsil pain",
+                "I have tonsil pain",
+                "Feeling tonsil pain"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "child not eating",
+            "patterns": [
+                "child not eating",
+                "I have child not eating",
+                "Feeling child not eating"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "delayed milestones",
+            "patterns": [
+                "delayed milestones",
+                "I have delayed milestones",
+                "Feeling delayed milestones"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "bone fracture",
+            "patterns": [
+                "bone fracture",
+                "I have bone fracture",
+                "Feeling bone fracture"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "knee stiffness",
+            "patterns": [
+                "knee stiffness",
+                "I have knee stiffness",
+                "Feeling knee stiffness"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "acid reflux",
+            "patterns": [
+                "acid reflux",
+                "I have acid reflux",
+                "Feeling acid reflux"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "bloating",
+            "patterns": [
+                "bloating",
+                "I have bloating",
+                "Feeling bloating"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "mood swings",
+            "patterns": [
+                "mood swings",
+                "I have mood swings",
+                "Feeling mood swings"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "panic attacks",
+            "patterns": [
+                "panic attacks",
+                "I have panic attacks",
+                "Feeling panic attacks"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "chronic cough",
+            "patterns": [
+                "chronic cough",
+                "I have chronic cough",
+                "Feeling chronic cough"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "wheezing",
+            "patterns": [
+                "wheezing",
+                "I have wheezing",
+                "Feeling wheezing"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "hormonal imbalance",
+            "patterns": [
+                "hormonal imbalance",
+                "I have hormonal imbalance",
+                "Feeling hormonal imbalance"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "irregular periods",
+            "patterns": [
+                "irregular periods",
+                "I have irregular periods",
+                "Feeling irregular periods"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "kidney pain",
+            "patterns": [
+                "kidney pain",
+                "I have kidney pain",
+                "Feeling kidney pain"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "foamy urine",
+            "patterns": [
+                "foamy urine",
+                "I have foamy urine",
+                "Feeling foamy urine"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "eye redness",
+            "patterns": [
+                "eye redness",
+                "I have eye redness",
+                "Feeling eye redness"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "double vision",
+            "patterns": [
+                "double vision",
+                "I have double vision",
+                "Feeling double vision"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "joint swelling",
+            "patterns": [
+                "joint swelling",
+                "I have joint swelling",
+                "Feeling joint swelling"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "morning stiffness",
+            "patterns": [
+                "morning stiffness",
+                "I have morning stiffness",
+                "Feeling morning stiffness"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "unexplained bruising",
+            "patterns": [
+                "unexplained bruising",
+                "I have unexplained bruising",
+                "Feeling unexplained bruising"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "persistent fatigue",
+            "patterns": [
+                "persistent fatigue",
+                "I have persistent fatigue",
+                "Feeling persistent fatigue"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "seasonal sneezing",
+            "patterns": [
+                "seasonal sneezing",
+                "I have seasonal sneezing",
+                "Feeling seasonal sneezing"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "skin allergy",
+            "patterns": [
+                "skin allergy",
+                "I have skin allergy",
+                "Feeling skin allergy"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "irregular heartbeat",
+            "patterns": [
+                "irregular heartbeat",
+                "I have irregular heartbeat",
+                "Feeling irregular heartbeat"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        },
+        {
+            "tag": "chest heaviness",
+            "patterns": [
+                "chest heaviness",
+                "I have chest heaviness",
+                "Feeling chest heaviness"
+            ],
+            "responses": [
+                "Tell me more about your symptom."
+            ]
+        }
+    ]
+}

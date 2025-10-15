@@ -1,0 +1,302 @@
+{
+    "fever": [
+        "Do you have cough?",
+        "Is your temperature above 101\u00b0F?",
+        "Do you have chills or sweating?",
+        "How long have you had the fever?"
+    ],
+    "cough": [
+        "Is it dry or wet?",
+        "Do you have mucus?",
+        "Any blood in the mucus?",
+        "How long have you been coughing?"
+    ],
+    "cold": [
+        "Do you have runny nose?",
+        "Do you have sneezing?",
+        "Is it seasonal?",
+        "Any sore throat or fever?"
+    ],
+    "headache": [
+        "Is it migraine-like?",
+        "Do you feel nausea with headache?",
+        "How severe is it on a scale of 1-10?",
+        "Is it one-sided or all over?"
+    ],
+    "back pain": [
+        "Is the pain lower or upper back?",
+        "Does it worsen with movement?",
+        "Any numbness or tingling?",
+        "How long have you had the pain?"
+    ],
+    "stomach pain": [
+        "Is it upper or lower abdomen?",
+        "Do you have nausea or vomiting?",
+        "Any bloating or gas?",
+        "Have you eaten anything unusual?"
+    ],
+    "nausea": [
+        "Do you feel like vomiting?",
+        "Do you have stomach pain?",
+        "Any dizziness or headache?",
+        "How long have you felt nauseous?"
+    ],
+    "vomiting": [
+        "How many times did you vomit?",
+        "Do you have stomach pain?",
+        "Any blood in vomit?",
+        "Any recent food intake or medication?"
+    ],
+    "dizziness": [
+        "Do you feel lightheaded or spinning?",
+        "Do you have nausea?",
+        "Does it happen when standing?",
+        "Any recent illness or dehydration?"
+    ],
+    "fatigue": [
+        "Is it sudden or gradual?",
+        "Do you sleep well?",
+        "Any weight change?",
+        "Do you feel weak or tired all day?"
+    ],
+    "chest pain": [
+        "Is it sharp, dull, or pressure-like?",
+        "Does it radiate to arm, neck, or jaw?",
+        "Do you feel shortness of breath?",
+        "Does it worsen with activity or breathing?"
+    ],
+    "shortness of breath": [
+        "Is it during rest or activity?",
+        "Do you have chest pain?",
+        "Do you have wheezing or cough?",
+        "Do you feel dizzy or faint?"
+    ],
+    "allergy": [
+        "What symptoms do you have?",
+        "Do you know the trigger?",
+        "Is it seasonal?",
+        "Any skin rash or breathing issues?"
+    ],
+    "sore throat": [
+        "Do you have fever?",
+        "Is it painful to swallow?",
+        "Do you have cough or runny nose?",
+        "Any swollen glands?"
+    ],
+    "diarrhea": [
+        "How many times per day?",
+        "Do you have blood in stool?",
+        "Any stomach cramps?",
+        "Any recent food intake or travel?"
+    ],
+    "constipation": [
+        "How many days without stool?",
+        "Is it painful?",
+        "Any bloating or gas?",
+        "Any diet or fluid changes?"
+    ],
+    "joint pain": [
+        "Which joints are affected?",
+        "Is it swollen or red?",
+        "Any stiffness in the morning?",
+        "Any injury recently?"
+    ],
+    "muscle pain": [
+        "Where is the pain?",
+        "Is it due to exercise or strain?",
+        "How severe is it?",
+        "Any weakness or swelling?"
+    ],
+    "rash": [
+        "Where is the rash?",
+        "Is it itchy or painful?",
+        "Any recent medication or allergy?",
+        "Is it spreading or changing?"
+    ],
+    "insomnia": [
+        "Difficulty falling asleep or staying asleep?",
+        "Any stress or anxiety?",
+        "Any caffeine or screen use before bed?",
+        "Any medications or health issues?"
+    ],
+    "anxiety": [
+        "Do you have panic attacks?",
+        "Do you sleep well?",
+        "Any triggers or stressors?",
+        "Do you feel restless or tense?"
+    ],
+    "depression": [
+        "Do you feel sad frequently?",
+        "Do you have loss of interest?",
+        "Any changes in sleep or appetite?",
+        "Any suicidal thoughts?"
+    ],
+    "weight loss": [
+        "Is it intentional?",
+        "Any appetite loss?",
+        "Any fatigue or illness?",
+        "Any recent lifestyle changes?"
+    ],
+    "weight gain": [
+        "Any change in diet?",
+        "Do you have swelling?",
+        "Any fatigue or hormonal issues?",
+        "Any medication use?"
+    ],
+    "blurred vision": [
+        "Both eyes or one eye?",
+        "Do you have headache?",
+        "Sudden or gradual?",
+        "Any eye pain or redness?"
+    ],
+    "ear pain": [
+        "Is there discharge?",
+        "Do you have hearing loss?",
+        "Any fever?",
+        "Any recent cold or sinus issues?"
+    ],
+    "eye pain": [
+        "Is it red or itchy?",
+        "Do you have blurred vision?",
+        "Any discharge or swelling?",
+        "Any sensitivity to light?"
+    ],
+    "urination problem": [
+        "Painful or frequent?",
+        "Any blood in urine?",
+        "Any fever?",
+        "Any urgency or leakage?"
+    ],
+    "hair fall": [
+        "Is it sudden or gradual?",
+        "Any scalp issues?",
+        "Any medications or stress?",
+        "Any family history?"
+    ],
+    "memory loss": [
+        "Recent or long-term?",
+        "Any confusion?",
+        "Any head injury?",
+        "Any difficulty with daily tasks?"
+    ],
+    "heartburn": [
+        "Is it after meals?",
+        "Do you have nausea?",
+        "Any sour taste or burping?",
+        "Any medications or spicy food?"
+    ],
+    "gas problem": [
+        "Do you have bloating?",
+        "Any stomach pain?",
+        "Any diet changes?",
+        "Any constipation or diarrhea?"
+    ],
+    "cold hands": [
+        "Do you have numbness?",
+        "Any pain or color change?",
+        "Any swelling?",
+        "Do you feel cold generally?"
+    ],
+    "cold feet": [
+        "Any numbness?",
+        "Any swelling?",
+        "Do you have diabetes?",
+        "Any skin color changes?"
+    ],
+    "sweating": [
+        "Excessive during day or night?",
+        "Any fever?",
+        "Any medications?",
+        "Any anxiety or palpitations?"
+    ],
+    "thirst": [
+        "Do you drink enough water?",
+        "Any urination issues?",
+        "Any diabetes?",
+        "Any dry mouth or fatigue?"
+    ],
+    "frequent urination": [
+        "Any pain?",
+        "Any thirst?",
+        "Any fever?",
+        "Any urgency or leakage?"
+    ],
+    "coughing blood": [
+        "How often?",
+        "Any chest pain?",
+        "Any fever?",
+        "Any history of TB or smoking?"
+    ],
+    "nose bleeding": [
+        "How often?",
+        "Any injury?",
+        "Any medications?",
+        "Any dryness or sneezing?"
+    ],
+    "swelling": [
+        "Where is the swelling?",
+        "Any pain?",
+        "Any fever?",
+        "Is it sudden or gradual?"
+    ],
+    "lump": [
+        "Where is the lump?",
+        "Hard or soft?",
+        "Fixed or movable?",
+        "Any pain or recent growth?"
+    ],
+    "chest tightness": [
+        "When does it occur?",
+        "Any shortness of breath?",
+        "Any exercise or stress?",
+        "Any wheezing or cough?"
+    ],
+    "palpitations": [
+        "Do you feel irregular heartbeat?",
+        "Any chest pain?",
+        "Any dizziness or fainting?",
+        "Does it happen during rest or exertion?"
+    ],
+    "loss of appetite": [
+        "Any nausea?",
+        "Any weight loss?",
+        "Any fever?",
+        "Any recent stress or illness?"
+    ],
+    "vomiting blood": [
+        "How often?",
+        "Is the blood bright red or dark?",
+        "Any stomach pain?",
+        "Any dizziness or fainting?"
+    ],
+    "confusion": [
+        "Sudden or gradual?",
+        "Any fever?",
+        "Any head injury?",
+        "Do they recognize people and surroundings?"
+    ],
+    "feeling cold": [
+        "Any fever?",
+        "Any fatigue?",
+        "Any other symptoms?",
+        "Do you feel cold even in warm weather?"
+    ],
+    "feeling hot": [
+        "Any fever?",
+        "Any sweating?",
+        "Any other symptoms?",
+        "Do you feel flushed or restless?"
+    ],
+    "difficulty swallowing": [
+        "Painful or hard to swallow?",
+        "Any throat pain?",
+        "Any swelling or lump?",
+        "Any weight loss or choking?"
+    ],
+    "heart pain": [
+        "Do you experience chest tightness or pressure?",
+        "Does the pain radiate to your arm, neck, or jaw?",
+        "How long does each episode last?",
+        "Do you have shortness of breath, sweating, or nausea?"
+    ]
+}
